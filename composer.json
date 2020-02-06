@@ -3,7 +3,7 @@
     "description": "Fallback Redis session to Db on failure",
     "type": "magento2-module",
     "license": [
-        "proprietary"
+        "OSL 3.0"
     ],
     "authors":[
         {
