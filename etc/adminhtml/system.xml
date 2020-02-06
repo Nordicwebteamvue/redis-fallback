@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <section id="system">
+            <group id="redis_fallback" translate="label" showInDefault="1" showInWebsite="0" showInStore="0" sortOrder="800">
+                <label>Redis Fallback</label>
+                <field id="handler" translate="label" type="select" sortOrder="0" showInDefault="1" showInWebsite="0" showInStore="0" canRestore="1">
+                    <label>Fallback Handler</label>
+                    <source_model>Kodbruket\RedisFallback\Model\System\Config\RedisHandler</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

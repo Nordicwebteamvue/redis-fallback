@@ -1,0 +1,24 @@
+{
+    "name": "kodbruket/module-redisfallback",
+    "description": "Fallback Redis session to Db on failure",
+    "type": "magento2-module",
+    "license": [
+        "proprietary"
+    ],
+    "authors":[
+        {
+            "name":"Jimmy",
+            "email":"phu@kodbruket.se"
+        }
+    ],
+    "require": {
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Kodbruket\\RedisFallback\\": ""
+        }
+    }
+}
